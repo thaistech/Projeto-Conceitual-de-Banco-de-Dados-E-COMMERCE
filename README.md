@@ -22,9 +22,11 @@ Entrega: Controla o status e o código de rastreio das entregas de pedidos.
 
 
 🔄 Relacionamentos no Banco de Dados
+
 O modelo de dados define vários relacionamentos, incluindo:
 
 Relacionamentos N:M (Muitos para Muitos):
+
 Vendedor e Produto: Um vendedor pode vender vários produtos e um produto pode ser vendido por vários vendedores.
 
 Fornecedor e Produto: Um fornecedor pode fornecer vários produtos e um produto pode ser fornecido por vários fornecedores.

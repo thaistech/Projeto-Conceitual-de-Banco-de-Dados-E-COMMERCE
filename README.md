@@ -1,6 +1,4 @@
 # Projeto-Conceitual-de-Banco-de-Dados-E-COMMERCE
-Sistema de Gerenciamento de Vendas e Estoque
-Este repositório contém o modelo de banco de dados relacional para um sistema de gerenciamento de vendas e estoque. Ele foi desenvolvido com o objetivo de ilustrar a inter-relação entre clientes, pedidos, fornecedores, produtos, estoques, vendedores, pagamentos e entregas.
 
 🔑 Entidades Principais
 O diagrama de relacionamento abrange as seguintes entidades:

@@ -6,13 +6,21 @@ Este repositório contém o modelo de banco de dados relacional para um sistema 
 O diagrama de relacionamento abrange as seguintes entidades:
 
 Cliente: Representa os clientes, com tipos Pessoa Física (PF) ou Pessoa Jurídica (PJ).
+
 Pedido: Registra os pedidos realizados pelos clientes.
+
 Fornecedor: Gerencia os fornecedores dos produtos.
+
 Produto: Contém os produtos disponíveis para venda.
+
 Estoque: Gerencia a quantidade de produtos em estoque.
+
 Vendedor: Representa os vendedores terceirizados que realizam as vendas.
+
 Pagamento: Define as formas de pagamento associadas aos pedidos.
+
 Entrega: Controla o status e o código de rastreio das entregas de pedidos.
+
 
 🔄 Relacionamentos no Banco de Dados
 O modelo de dados define vários relacionamentos, incluindo:

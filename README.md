@@ -6,19 +6,19 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 - **Cliente:** Representa os clientes, com tipos Pessoa Física (PF) ou Pessoa Jurídica (PJ).
 
-**Pedido:** Registra os pedidos realizados pelos clientes.
+- **Pedido:** Registra os pedidos realizados pelos clientes.
 
-**Fornecedor:** Gerencia os fornecedores dos produtos.
+- **Fornecedor:** Gerencia os fornecedores dos produtos.
 
-**Produto:** Contém os produtos disponíveis para venda.
+- **Produto:** Contém os produtos disponíveis para venda.
 
-**Estoque:** Gerencia a quantidade de produtos em estoque.
+- **Estoque:** Gerencia a quantidade de produtos em estoque.
 
-**Vendedor:** Representa os vendedores terceirizados que realizam as vendas.
+- **Vendedor:** Representa os vendedores terceirizados que realizam as vendas.
 
-**Pagamento:** Define as formas de pagamento associadas aos pedidos.
+- **Pagamento:** Define as formas de pagamento associadas aos pedidos.
 
-**Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br><br>
+- **Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br><br>
 
 ## 🔄 Relacionamentos no Banco de Dados
 
@@ -26,19 +26,19 @@ O modelo de dados define vários relacionamentos, incluindo: <br>
 
 **Relacionamentos N:M (Muitos para Muitos):**
 
-**Vendedor e Produto:** Um vendedor pode vender vários produtos e um produto pode ser vendido por vários vendedores.
+- **Vendedor e Produto:** Um vendedor pode vender vários produtos e um produto pode ser vendido por vários vendedores.
 
-**Fornecedor e Produto:** Um fornecedor pode fornecer vários produtos e um produto pode ser fornecido por vários fornecedores.
+- **Fornecedor e Produto:** Um fornecedor pode fornecer vários produtos e um produto pode ser fornecido por vários fornecedores.
 
-**Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos. <br>
+- **Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos. <br>
 
-**Relacionamentos 1:N (Um para Muitos):**
+- **Relacionamentos 1:N (Um para Muitos):**
 
-**Cliente e Pedido:** Um cliente pode realizar vários pedidos.
+- **Cliente e Pedido:** Um cliente pode realizar vários pedidos.
 
-**Pedido e Pagamento:** Um pedido pode ter múltiplos pagamentos (ex: parcelado).
+- **Pedido e Pagamento:** Um pedido pode ter múltiplos pagamentos (ex: parcelado).
 
-**Pedido e Entrega:** Um pedido pode ter múltiplas entregas (ex: entregas parciais).<br><br>
+- **Pedido e Entrega:** Um pedido pode ter múltiplas entregas (ex: entregas parciais).<br><br>
 
 ## 📊 Estrutura do Banco de Dados
 

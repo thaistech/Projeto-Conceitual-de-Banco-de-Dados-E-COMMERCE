@@ -27,11 +27,17 @@ O modelo de dados define vários relacionamentos, incluindo:
 
 Relacionamentos N:M (Muitos para Muitos):
 Vendedor e Produto: Um vendedor pode vender vários produtos e um produto pode ser vendido por vários vendedores.
+
 Fornecedor e Produto: Um fornecedor pode fornecer vários produtos e um produto pode ser fornecido por vários fornecedores.
+
 Produto e Estoque: Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos.
+
 Relacionamentos 1:N (Um para Muitos):
+
 Cliente e Pedido: Um cliente pode realizar vários pedidos.
+
 Pedido e Pagamento: Um pedido pode ter múltiplos pagamentos (ex: parcelado).
+
 Pedido e Entrega: Um pedido pode ter múltiplas entregas (ex: entregas parciais).
 
 📊 Estrutura do Banco de Dados

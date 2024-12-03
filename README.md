@@ -32,7 +32,7 @@ O modelo de dados define vários relacionamentos, incluindo: <br>
 
 - **Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos. <br>
 
-- **Relacionamentos 1:N (Um para Muitos):**
+**Relacionamentos 1:N (Um para Muitos):**
 
 - **Cliente e Pedido:** Um cliente pode realizar vários pedidos.
 

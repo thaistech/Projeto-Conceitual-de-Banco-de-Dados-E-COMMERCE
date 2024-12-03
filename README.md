@@ -18,11 +18,11 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 **Pagamento:** Define as formas de pagamento associadas aos pedidos.
 
-**Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br><br><br>
+**Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br><br>
 
 **🔄 Relacionamentos no Banco de Dados**
 
-O modelo de dados define vários relacionamentos, incluindo:
+O modelo de dados define vários relacionamentos, incluindo:<br>
 
 Relacionamentos N:M (Muitos para Muitos):
 
@@ -30,7 +30,7 @@ Relacionamentos N:M (Muitos para Muitos):
 
 **Fornecedor e Produto:** Um fornecedor pode fornecer vários produtos e um produto pode ser fornecido por vários fornecedores.
 
-**Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos.
+**Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos.<br>
 
 Relacionamentos 1:N (Um para Muitos):
 
@@ -38,7 +38,7 @@ Relacionamentos 1:N (Um para Muitos):
 
 **Pedido e Pagamento:** Um pedido pode ter múltiplos pagamentos (ex: parcelado).
 
-**Pedido e Entrega:** Um pedido pode ter múltiplas entregas (ex: entregas parciais).<br><br><br>
+**Pedido e Entrega:** Um pedido pode ter múltiplas entregas (ex: entregas parciais).<br><br>
 
 **📊 Estrutura do Banco de Dados**
 
@@ -67,13 +67,13 @@ Tabelas de junção para os relacionamentos muitos-para-muitos, como **Fornecedo
 
 **📈 Diagrama de Entidade-Relacionamento (ER)**
 
-O diagrama ER foi criado no **MySQL Workbench** e visualiza todos os relacionamentos e a estrutura do banco de dados.<br><br><br>
+O diagrama ER foi criado no **MySQL Workbench** e visualiza todos os relacionamentos e a estrutura do banco de dados.<br><br>
 
 **⚙️ Tecnologias Utilizadas**
 
 **MySQL:** Para o banco de dados relacional.
 
-**MySQL Workbench:** Para modelagem de banco de dados e criação do diagrama ER.<br><br><br>
+**MySQL Workbench:** Para modelagem de banco de dados e criação do diagrama ER.<br><br>
 
 **📥 Como Usar**
 1- **Clonar o repositório:**

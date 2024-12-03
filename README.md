@@ -20,7 +20,7 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 **Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br><br>
 
-**🔄 Relacionamentos no Banco de Dados**
+## 🔄 Relacionamentos no Banco de Dados
 
 O modelo de dados define vários relacionamentos, incluindo: <br>
 
@@ -40,7 +40,7 @@ O modelo de dados define vários relacionamentos, incluindo: <br>
 
 **Pedido e Entrega:** Um pedido pode ter múltiplas entregas (ex: entregas parciais).<br><br>
 
-**📊 Estrutura do Banco de Dados**
+## 📊 Estrutura do Banco de Dados
 
 Cada tabela no banco de dados foi projetada para representar uma entidade, com os seguintes detalhes:
 
@@ -66,17 +66,17 @@ Tabelas de junção para os relacionamentos muitos-para-muitos, como **Fornecedo
 
 *Entrega:* Status e rastreio de entrega.<br><br><br>
 
-**📈 Diagrama de Entidade-Relacionamento (ER)**
+## 📈 Diagrama de Entidade-Relacionamento (ER)
 
 O diagrama ER foi criado no **MySQL Workbench** e visualiza todos os relacionamentos e a estrutura do banco de dados.<br><br>
 
-**⚙️ Tecnologias Utilizadas**
+## ⚙️ Tecnologias Utilizadas
 
 **MySQL:** Para o banco de dados relacional.
 
 **MySQL Workbench:** Para modelagem de banco de dados e criação do diagrama ER.<br><br>
 
-**📥 Como Usar**
+## 📥 Como Usar
 1- **Clonar o repositório:**
 git clone https://github.com/usuario/repositorio.git
 

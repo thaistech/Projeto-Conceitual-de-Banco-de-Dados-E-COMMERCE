@@ -18,7 +18,7 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 **Pagamento:** Define as formas de pagamento associadas aos pedidos.
 
-**Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br><br><br><br>
+**Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br><br><br>
 
 **🔄 Relacionamentos no Banco de Dados**
 
@@ -38,7 +38,7 @@ Relacionamentos 1:N (Um para Muitos):
 
 **Pedido e Pagamento:** Um pedido pode ter múltiplos pagamentos (ex: parcelado).
 
-**Pedido e Entrega:** Um pedido pode ter múltiplas entregas (ex: entregas parciais).
+**Pedido e Entrega:** Um pedido pode ter múltiplas entregas (ex: entregas parciais).<br><br><br>
 
 **📊 Estrutura do Banco de Dados**
 
@@ -63,17 +63,17 @@ Tabelas de junção para os relacionamentos muitos-para-muitos, como **Fornecedo
 
 *Pagamento:* Formas de pagamento associadas ao pedido.
 
-*Entrega:* Status e rastreio de entrega.
+*Entrega:* Status e rastreio de entrega.<br><br><br>
 
 **📈 Diagrama de Entidade-Relacionamento (ER)**
 
-O diagrama ER foi criado no **MySQL Workbench** e visualiza todos os relacionamentos e a estrutura do banco de dados.
+O diagrama ER foi criado no **MySQL Workbench** e visualiza todos os relacionamentos e a estrutura do banco de dados.<br><br><br>
 
 **⚙️ Tecnologias Utilizadas**
 
 **MySQL:** Para o banco de dados relacional.
 
-**MySQL Workbench:** Para modelagem de banco de dados e criação do diagrama ER.
+**MySQL Workbench:** Para modelagem de banco de dados e criação do diagrama ER.<br><br><br>
 
 **📥 Como Usar**
 1- **Clonar o repositório:**

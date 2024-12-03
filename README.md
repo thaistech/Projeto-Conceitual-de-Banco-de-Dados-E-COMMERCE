@@ -61,8 +61,3 @@ Criar o Banco de Dados: Após importar o diagrama, você pode executar as instru
 📃 Licença
 Este repositório está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
 
-Sugestões de Melhoria:
-
-Se você tiver imagens do diagrama ER, coloque o link para elas ou faça upload diretamente para o repositório.
-Adicione mais detalhes ou instruções, conforme necessário, dependendo da complexidade do projeto.
-Se o sistema estiver pronto para ser testado, inclua instruções sobre como executar ou configurar o banco de dados..

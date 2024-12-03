@@ -22,7 +22,7 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 **🔄 Relacionamentos no Banco de Dados**
 
-O modelo de dados define vários relacionamentos, incluindo:<br>
+O modelo de dados define vários relacionamentos, incluindo:<br><br>
 
 Relacionamentos N:M (Muitos para Muitos):
 
@@ -30,7 +30,7 @@ Relacionamentos N:M (Muitos para Muitos):
 
 **Fornecedor e Produto:** Um fornecedor pode fornecer vários produtos e um produto pode ser fornecido por vários fornecedores.
 
-**Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos.<br>
+**Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos.<br><br>
 
 Relacionamentos 1:N (Um para Muitos):
 

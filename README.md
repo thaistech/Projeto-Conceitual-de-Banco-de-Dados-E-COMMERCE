@@ -18,7 +18,7 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 **Pagamento:** Define as formas de pagamento associadas aos pedidos.
 
-**Entrega:** Controla o status e o código de rastreio das entregas de pedidos.
+**Entrega:** Controla o status e o código de rastreio das entregas de pedidos.<br>
 
 
 

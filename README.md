@@ -13,6 +13,7 @@ Estoque: Gerencia a quantidade de produtos em estoque.
 Vendedor: Representa os vendedores terceirizados que realizam as vendas.
 Pagamento: Define as formas de pagamento associadas aos pedidos.
 Entrega: Controla o status e o código de rastreio das entregas de pedidos.
+
 🔄 Relacionamentos no Banco de Dados
 O modelo de dados define vários relacionamentos, incluindo:
 
@@ -24,6 +25,7 @@ Relacionamentos 1:N (Um para Muitos):
 Cliente e Pedido: Um cliente pode realizar vários pedidos.
 Pedido e Pagamento: Um pedido pode ter múltiplos pagamentos (ex: parcelado).
 Pedido e Entrega: Um pedido pode ter múltiplas entregas (ex: entregas parciais).
+
 📊 Estrutura do Banco de Dados
 Cada tabela no banco de dados foi projetada para representar uma entidade, com os seguintes detalhes:
 
@@ -45,6 +47,7 @@ O diagrama ER foi criado no MySQL Workbench e visualiza todos os relacionamentos
 ⚙️ Tecnologias Utilizadas
 MySQL: Para o banco de dados relacional.
 MySQL Workbench: Para modelagem de banco de dados e criação do diagrama ER.
+
 📥 Como Usar
 Clonar o repositório:
 

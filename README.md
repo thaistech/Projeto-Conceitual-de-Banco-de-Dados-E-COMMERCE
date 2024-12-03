@@ -24,7 +24,7 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 O modelo de dados define vários relacionamentos, incluindo: <br>
 
-Relacionamentos N:M (Muitos para Muitos):
+**Relacionamentos N:M (Muitos para Muitos):**
 
 **Vendedor e Produto:** Um vendedor pode vender vários produtos e um produto pode ser vendido por vários vendedores.
 
@@ -32,7 +32,7 @@ Relacionamentos N:M (Muitos para Muitos):
 
 **Produto e Estoque:** Um produto pode estar presente em vários estoques e um estoque pode conter vários produtos. <br>
 
-Relacionamentos 1:N (Um para Muitos):
+**Relacionamentos 1:N (Um para Muitos):**
 
 **Cliente e Pedido:** Um cliente pode realizar vários pedidos.
 

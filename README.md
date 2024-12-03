@@ -40,19 +40,30 @@ Pedido e Pagamento: Um pedido pode ter múltiplos pagamentos (ex: parcelado).
 Pedido e Entrega: Um pedido pode ter múltiplas entregas (ex: entregas parciais).
 
 📊 Estrutura do Banco de Dados
+
 Cada tabela no banco de dados foi projetada para representar uma entidade, com os seguintes detalhes:
 
 Chaves Primárias (PK) e Chaves Estrangeiras (FK) para garantir a integridade referencial.
+
 Tabelas de junção para os relacionamentos muitos-para-muitos, como Fornecedor_Produto, Vendedor_Produto e Produto_Estoque.
+
 Tabelas Criadas:
 Cliente: Dados do cliente (PF ou PJ).
+
 Pedido: Informações sobre o pedido e seu status.
+
 Fornecedor: Informações do fornecedor.
+
 Produto: Dados do produto.
+
 Estoque: Informações sobre a quantidade de produtos disponíveis.
+
 Vendedor: Informações do vendedor.
+
 Pagamento: Formas de pagamento associadas ao pedido.
+
 Entrega: Status e rastreio de entrega.
+
 📈 Diagrama de Entidade-Relacionamento (ER)
 
 O diagrama ER foi criado no MySQL Workbench e visualiza todos os relacionamentos e a estrutura do banco de dados.

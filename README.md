@@ -20,6 +20,7 @@ Pagamento: Define as formas de pagamento associadas aos pedidos.
 Entrega: Controla o status e o código de rastreio das entregas de pedidos.
 
 
+
 🔄 Relacionamentos no Banco de Dados
 O modelo de dados define vários relacionamentos, incluindo:
 

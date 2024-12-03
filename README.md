@@ -22,6 +22,8 @@ O diagrama de relacionamento abrange as seguintes entidades:
 
 
 
+
+
 **🔄 Relacionamentos no Banco de Dados**
 
 O modelo de dados define vários relacionamentos, incluindo:

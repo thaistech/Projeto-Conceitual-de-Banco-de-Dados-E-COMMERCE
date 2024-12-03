@@ -4,7 +4,7 @@
 
 O diagrama de relacionamento abrange as seguintes entidades:
 
-*Cliente:* Representa os clientes, com tipos Pessoa Física (PF) ou Pessoa Jurídica (PJ).
+*Cliente: Representa os clientes, com tipos Pessoa Física (PF) ou Pessoa Jurídica (PJ).
 
 Pedido: Registra os pedidos realizados pelos clientes.
 

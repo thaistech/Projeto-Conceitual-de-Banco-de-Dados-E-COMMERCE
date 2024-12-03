@@ -50,21 +50,21 @@ Tabelas de junção para os relacionamentos muitos-para-muitos, como **Fornecedo
 
 **Tabelas Criadas:**
 
-*Cliente:* Dados do cliente (PF ou PJ).
+- *Cliente:* Dados do cliente (PF ou PJ).
 
-*Pedido:* Informações sobre o pedido e seu status.
+- *Pedido:* Informações sobre o pedido e seu status.
 
-*Fornecedor:* Informações do fornecedor.
+- *Fornecedor:* Informações do fornecedor.
 
-*Produto:* Dados do produto.
+- *Produto:* Dados do produto.
 
-*Estoque:* Informações sobre a quantidade de produtos disponíveis.
+- *Estoque:* Informações sobre a quantidade de produtos disponíveis.
 
-*Vendedor:* Informações do vendedor.
+- *Vendedor:* Informações do vendedor.
 
-*Pagamento:* Formas de pagamento associadas ao pedido.
+- *Pagamento:* Formas de pagamento associadas ao pedido.
 
-*Entrega:* Status e rastreio de entrega.<br><br><br>
+- *Entrega:* Status e rastreio de entrega.<br><br><br>
 
 ## 📈 Diagrama de Entidade-Relacionamento (ER)
 

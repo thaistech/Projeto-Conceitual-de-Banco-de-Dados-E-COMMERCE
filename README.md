@@ -49,6 +49,7 @@ Cada tabela no banco de dados foi projetada para representar uma entidade, com o
 Tabelas de junção para os relacionamentos muitos-para-muitos, como **Fornecedor_Produto, Vendedor_Produto e Produto_Estoque**.
 
 **Tabelas Criadas:**
+
 *Cliente:* Dados do cliente (PF ou PJ).
 
 *Pedido:* Informações sobre o pedido e seu status.

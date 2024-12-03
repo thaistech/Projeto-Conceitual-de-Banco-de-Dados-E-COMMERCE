@@ -71,19 +71,16 @@ Entrega: Status e rastreio de entrega.
 O diagrama ER foi criado no MySQL Workbench e visualiza todos os relacionamentos e a estrutura do banco de dados.
 
 ⚙️ Tecnologias Utilizadas
+
 MySQL: Para o banco de dados relacional.
+
 MySQL Workbench: Para modelagem de banco de dados e criação do diagrama ER.
 
 📥 Como Usar
-Clonar o repositório:
-
-bash
-Copiar código
+1- Clonar o repositório:
 git clone https://github.com/usuario/repositorio.git
-Importar o Diagrama no MySQL Workbench: Abra o arquivo do diagrama ER (.mwb) no MySQL Workbench para visualizar e editar a estrutura do banco de dados.
 
-Criar o Banco de Dados: Após importar o diagrama, você pode executar as instruções SQL no MySQL Workbench para criar as tabelas no seu banco de dados local.
+2- Importar o Diagrama no MySQL Workbench: Abra o arquivo do diagrama ER (.mwb) no MySQL Workbench para visualizar e editar a estrutura do banco de dados.
 
-📃 Licença
-Este repositório está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+3- Criar o Banco de Dados: Após importar o diagrama, você pode executar as instruções SQL no MySQL Workbench para criar as tabelas no seu banco de dados local.
 
